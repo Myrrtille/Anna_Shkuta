@@ -201,7 +201,7 @@ input{
     user-select: none;
     font-weight: 700;
     font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
-    background:  #e0e0e0;
+    background:  #e6e6e6;
 }
 
 .del{
@@ -234,4 +234,40 @@ h3{
 
 .not_bought{
     
+}
+
+.minus_icon{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+
+.stats_not_bought{
+    
+}
+
+.stats_label{
+    margin-bottom: 3px!important;
+    display: inline-block;
+    line-height: 1;
+    margin: 0 .14285714em;
+    background-color: #E8E8E8;
+    padding: .5833em .833em;
+    color: rgba(0,0,0,.6);
+    border-radius: .28571429rem;
+    font-weight: 700;
+    font-size: .64285714rem;
+    margin-left: 0;
+}
+
+.orange_label_counter{
+    background-color: #F2711C!important;
+    border-color: #F2711C!important;
+    color: #FFF!important;
+    min-width: 2em;
+    min-height: 2em;
+    padding:0.5em;
+    line-height: 1em;
+    text-align: center;
+    border-radius: 500rem;
 }
