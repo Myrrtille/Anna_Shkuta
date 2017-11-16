@@ -1,6 +1,5 @@
 body{
     background-color: gainsboro;
-    overflow-x: hidden;
     min-width: 320px;
 }
 
@@ -58,34 +57,25 @@ body,html{
     height: 2rem;
 }
 
-.add{
-    height: 100%;
-}
-
 input{
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: auto;
     padding-top: 0.678614em;
     padding-right: 1em;
     padding-bottom: 0.678614em;
-    padding-left: 1em;
     border: 1px solid rgba(34,36,38,.15);
 }
 
 .add_b{
-    padding-top: .53846154em;
-    padding-bottom: .53846154em;
-    margin: 0;
+    width: 20%;
     background-color: #2185D0;
     color: #FFF;
-    padding: 1em 2em 1.15em;
-    border: none;
+    padding: 0.86em;
     line-height: 1em;
     text-align: center;
     font-weight: 700; 
     vertical-align: middle;
-    border-radius: .28571429rem;
+    border: none;
+    -webkit-border-bottom-right-radius: .28571429rem;
+    -webkit-border-top-right-radius: .28571429rem;
 }
 
 .item_row_form{
@@ -205,7 +195,8 @@ input{
 }
 
 .del{
-    padding: 1.25em;
+    height: 2rem;
+    width: 2rem;
     background-color: #c71919;
 }
 
@@ -236,14 +227,13 @@ h3{
     
 }
 
-.minus_icon{
-    height: 100%;
-    width: 100%;
-    background-color: aqua;
+.icon{
+    height: 10px;
+    width: 10px;
 }
 
-.stats_not_bought{
-    
+.del_icon{
+    transform: rotate(45deg);
 }
 
 .stats_label{
@@ -266,8 +256,15 @@ h3{
     color: #FFF!important;
     min-width: 2em;
     min-height: 2em;
-    padding:0.5em;
+    padding: 0.2em 0.5em 0.2em 0.5em;
     line-height: 1em;
     text-align: center;
     border-radius: 500rem;
+}
+
+.enter_name_field{
+    padding-left: 0.7em;
+    width: 75%;
+    -webkit-border-bottom-left-radius: .28571429rem;
+    -webkit-border-top-left-radius: .28571429rem;
 }
