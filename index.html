@@ -14,10 +14,10 @@
             <div class="first_main box">
                 <div class="item_list raised_segment">
                     <div class="add_form">
-                        <!--<div class="add">-->
-                            <input class="enter_name_field" type="text" placeholder="Назва товару">
+                        <input class="enter_name_field" type="text" placeholder="Назва товару">
+                        <span class="tooltip" data-tooltip="Додати до списку">
                             <button class="add_b">Додати</button>
-                        <!--</div>-->
+                        </span>
                     </div>
                     <div class="item_row_form">
                         <div class="item_row">
@@ -25,19 +25,27 @@
                                 <span class="title">Помідори</span>
                             </div>
                             <div class="change_amount box">
-                                <button class="minus_b" disabled>
-                                    <img src="images/remove.png" style="vertical-align: middle" class="icon">
-                                </button>
+                                <span class="tooltip" data-tooltip="Зменшити кількість">
+                                    <button class="minus_b " disabled>
+                                        <img src="images/remove.png" style="vertical-align: middle" class="icon">
+                                    </button>
+                                </span>
                                 <span class="label_counter">1</span>
-                                <button class="plus_b">
-                                    <img src="images/add.png" style="vertical-align: middle" class="icon">
-                                </button>
+                                <span class="tooltip" data-tooltip="Збільшити кількість">
+                                    <button class="plus_b">
+                                        <img src="images/add.png" style="vertical-align: middle" class="icon">
+                                    </button>
+                                </span>
                             </div>
                             <div class="buy_button_field box">
-                                <button class="bought button">Куплено</button>
-                                <button class="del button">
-                                    <img src="images/add.png" style="vertical-align: middle" class="del_icon icon">
-                                </button>
+                                <span class="tooltip" data-tooltip="Відмітити як куплене">
+                                    <button class="bought button">Куплено</button>
+                                </span>
+                                <span class="tooltip" data-tooltip="Видалити зі списку">
+                                    <button class="del button">
+                                        <img src="images/add.png" style="vertical-align: middle" class="del_icon icon">
+                                    </button>
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -47,19 +55,25 @@
                                 <span class="title">Печиво</span>
                             </div>
                             <div class="change_amount box">
-                                <button class="minus_b" disabled>
+                                <button class="minus_b tooltip" data-tooltip="Зменшити кількість" disabled>
                                     <img src="images/remove.png" style="vertical-align: middle" class="icon">
                                 </button>
                                 <span class="label_counter">1</span>
-                                <button class="plus_b">
-                                    <img src="images/add.png" style="vertical-align: middle" class="icon">
-                                </button>
+                                <span class="tooltip" data-tooltip="Збільшити кількість">
+                                    <button class="plus_b">
+                                        <img src="images/add.png" style="vertical-align: middle" class="icon">
+                                    </button>
+                                </span>
                             </div>
                             <div class="buy_button_field box">
-                                <button class="bought button">Куплено</button>
-                                <button class="del button">
-                                    <img src="images/add.png" style="vertical-align: middle" class="del_icon icon">
-                                </button>
+                                <span class="tooltip" data-tooltip="Відмітити як куплене">
+                                    <button class="bought button">Куплено</button>
+                                </span>
+                                <span class="tooltip" data-tooltip="Видалити зі списку">
+                                    <button class="del button">
+                                        <img src="images/add.png" style="vertical-align: middle" class="del_icon icon">
+                                    </button>
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -69,19 +83,25 @@
                                 <span class="title">Сир</span>
                             </div>
                             <div class="change_amount box">
-                                <button class="minus_b" disabled>
+                                <button class="minus_b tooltip" data-tooltip="Зменшити кількість" disabled>
                                     <img src="images/remove.png" style="vertical-align: middle" class="icon">
                                 </button>
                                 <span class="label_counter">1</span>
-                                <button class="plus_b" disabled>
-                                    <img src="images/add.png" style="vertical-align: middle" class="icon">
-                                </button>
+                                <span class="tooltip" data-tooltip="Збільшити кількість">
+                                    <button class="plus_b">
+                                        <img src="images/add.png" style="vertical-align: middle" class="icon">
+                                    </button>
+                                </span>
                             </div>
                             <div class="buy_button_field box">
-                                <button class="bought button">Куплено</button>
-                                <button class="del button">
-                                    <img src="images/add.png" style="vertical-align: middle" class="del_icon icon">
-                                </button>
+                                <span class="tooltip" data-tooltip="Відмітити як куплене">
+                                    <button class="bought button">Куплено</button>
+                                </span>
+                                <span class="tooltip" data-tooltip="Видалити зі списку">
+                                    <button class="del button">
+                                        <img src="images/add.png" style="vertical-align: middle" class="del_icon icon">
+                                    </button>
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -119,6 +139,10 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="beidge">
+        <label class="bl_label">Buy List</label>
+        <label class="name_label">Created by: Anna Shkuta</label>
     </div>
     
 </body>
